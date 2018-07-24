@@ -1,6 +1,6 @@
 package com.universeprojects.json.shared.parser;
 
-import com.google.gwt.core.shared.GwtIncompatible;
+import com.universeprojects.json.shared.GwtIncompatible;
 
 public class JSONParserFactory {
 	

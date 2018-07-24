@@ -2,10 +2,9 @@
 
 package com.universeprojects.json.shared.parser;
 
-import com.google.gwt.core.shared.GwtIncompatible;
+import com.universeprojects.json.shared.GwtIncompatible;
 
-
-@GwtIncompatible(value = "")
+@GwtIncompatible
 class Yylex {
 
 	/** This character denotes the end of file */

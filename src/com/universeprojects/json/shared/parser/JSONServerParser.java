@@ -11,7 +11,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import com.google.gwt.core.shared.GwtIncompatible;
+import com.universeprojects.json.shared.GwtIncompatible;
 import com.universeprojects.json.shared.JSONArray;
 import com.universeprojects.json.shared.JSONObject;
 
@@ -22,7 +22,7 @@ import com.universeprojects.json.shared.JSONObject;
  * @author FangYidong<fangyidong@yahoo.com.cn>
  */
 @SuppressWarnings({"rawtypes","unchecked"})
-@GwtIncompatible(value = "")
+@GwtIncompatible
 public class JSONServerParser implements JSONParser {
 	public static final int S_INIT=0;
 	public static final int S_IN_FINISHED_VALUE=1;//string,number,boolean,null,object,array
